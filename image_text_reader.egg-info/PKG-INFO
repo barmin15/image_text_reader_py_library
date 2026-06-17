@@ -1,10 +1,10 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: image_text_reader
-Version: 1.0.1
+Version: 1.1.0
 Summary: A library to read text from images
 Home-page: https://github.com/barmin15/image_text_reader_py_library
 Author: barmin15
-Author-email: bokora@lauderalumni.hu
+Author-email: armin@bokorarmin.com
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -13,10 +13,22 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: pytesseract
 Requires-Dist: Pillow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
 # Image Text Reader
 
-The `image-text-reader` library allows you to extract text from images using Optical Character Recognition (OCR) with the help of the `pytesseract` library and `Pillow` for image processing.
+The `image-text-reader` library allows you to extract hungarian text from images using Optical Character Recognition (OCR) with the help of the `pytesseract` library and `Pillow` for image processing.
+
+note: the current code only works if tessaract is set up for hungarian language pack
 
 ## Table of Contents
 

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="image_text_reader",
-    version="1.0.1",
+    version="1.1.0",
     author="barmin15",
     author_email="armin@bokorarmin.com",
     description="A library to read text from images",
