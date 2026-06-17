@@ -7,7 +7,7 @@ setup(
     name="image_text_reader",
     version="1.0.1",
     author="barmin15",
-    author_email="dummy@email.com",
+    author_email="armin@bokorarmin.com",
     description="A library to read text from images",
     long_description=long_description,
     long_description_content_type="text/markdown",
