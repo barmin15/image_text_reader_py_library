@@ -9,9 +9,9 @@ def preprocess_image(image_path):
     image = enhancer.enhance(2)
     return image
 
-def ocr_image(image_path, tesseract_cmd=None):
+def ocr_image(image_path, tesseract_cmd=None, lang='en'):
     if tesseract_cmd:
         pytesseract.pytesseract.tesseract_cmd = tesseract_cmd
     image = preprocess_image(image_path)
-    text = pytesseract.image_to_string(image, lang='hun')
+    text = pytesseract.image_to_string(image, lang=lang)
     return text
